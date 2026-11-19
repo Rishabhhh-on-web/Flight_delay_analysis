@@ -1,2 +1,4 @@
 # Flight_delay_analysis
-Splits every flight delay into inherited vs created minutes using aircraft rotations and minimum turn times, then traces delay cascades to the flights that started them.
+*Which flight delays does an aircraft inherit, and which does the airport create?*
+This project rebuilds each aircraft’s day of flying, splits every departure delay into inherited and created minutes, finds the flights that started delay chains, and checks the airline’s recorded delay reasons against the arithmetic.
+Built with Python, pandas and SQL on a Data Career School data lab (American Airlines, 11,190 flights).
